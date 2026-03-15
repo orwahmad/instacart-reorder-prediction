@@ -1,0 +1,13 @@
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
+dash
+plotly
+joblib
+jupyter
+os
+zipfile
+glob
+gc
