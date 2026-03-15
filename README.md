@@ -135,6 +135,25 @@ product_features.csv
 user_product_features.csv
 products_lookup.csv
 
+## Model File
+
+The trained Random Forest model file (`rf_reorder_model.joblib` and `user_product_features.csv`) is not included in this repository because it exceeds GitHub's file size limit.
+
+To recreate the model:
+
+1. Run the full Jupyter notebook:
+   `instacart_reorder_prediction.ipynb`
+
+2. The notebook will train the Random Forest model and generate the required files:
+   - rf_reorder_model.joblib
+   - rf_feature_columns.joblib
+   - user_features.csv
+   - product_features.csv
+   - user_product_features.csv
+   - products_lookup.csv
+
+After these files are generated, the Dash dashboard (`app.py`) can be executed.
+
 Install dependencies:
 
 pip install -r requirements.txt
